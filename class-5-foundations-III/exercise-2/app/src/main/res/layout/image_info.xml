@@ -26,6 +26,8 @@
             android:textStyle="bold"
             android:fontFamily="sans-serif-medium"/>
 
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,10 +39,12 @@
             android:textStyle="normal"
             android:fontFamily="sans-serif-light"/>
     </LinearLayout>
-
-    <Space
-        android:layout_width="16dp"
-        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/background_light" />
 
     <!-- Downloads -->
 
@@ -73,10 +77,14 @@
             android:textStyle="normal"
             android:fontFamily="sans-serif-light"/>
     </LinearLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/background_light" />
 
-    <Space
-        android:layout_width="16dp"
-        android:layout_height="wrap_content" />
+
 
     <!-- Likes -->
 
@@ -108,5 +116,8 @@
             android:textSize="15sp"
             android:textStyle="normal"
             android:fontFamily="sans-serif-light"/>
+
     </LinearLayout>
+
+
 </LinearLayout>

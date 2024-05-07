@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"> <!-- Changed from "ring" to "oval" for a full circle -->
+    <size
+        android:height="50dp"
+        android:width="50dp" />
+    <solid
+        android:color="#ffffff" /> <!-- Simplified to a single solid color -->
+</shape>
